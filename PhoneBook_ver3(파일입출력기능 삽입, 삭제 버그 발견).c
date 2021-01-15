@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
+//파일입출력기능 추가, delete 연결리스트 링크오류 발견-2021-01-15
 struct Phonebook
 {
     char name[15];
@@ -14,7 +14,7 @@ Book* start = NULL;  // 헤드
 
 
 // 추가           // 2021-01-14 삭제시 첫번째 문장이 자동으로 삭제되는 버그가 발생, 원인이 입력을 따로받는것 같아 입력함수 지우고 추가함수에 포함.
-void add_number(Book* first)
+void insert(Book* first)
 {
     Book* cur;          // cur노드
     Book* new_num;      // 새노드
@@ -198,23 +198,15 @@ void load()
             cur = loadn;
             start->next = cur;
             cur->next = NULL;
-            printf("현규 바보 %s\n",start->next->name);     //
         }
         else
         {
-            printf("%s\n", cur->name);  //
             cur->next = loadn;
             cur = cur->next;
             cur->next = NULL;
-            printf("현규 바보 %s", cur->name);
         }
     }
     cur = start;
-    while (cur->next->next != NULL)
-    {
-        printf("%s\n", cur->name);
-        cur = cur->next;
-    }
     fclose(fp);
     
     
@@ -249,7 +241,7 @@ int menu;
         switch (menu)
         {
         case 1:  // 삽입
-            add_number(start);
+            insert(start);
             break;
         case 2:  //삭제
             del(start);
