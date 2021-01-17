@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="pb.c">
+    <ClCompile Include="..\..\PhoneBook_ver4(최종버전,삭제버그 수정).c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

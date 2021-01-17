@@ -1,12 +1,12 @@
-﻿  pb.c
-C:\Users\Ahn\Ahncoder\phonebook2\phonebook2\pb.c(20,5): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\Ahn\Ahncoder\phonebook2\phonebook2\pb.c(22,5): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\Ahn\Ahncoder\phonebook2\phonebook2\pb.c(24,5): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\Ahn\Ahncoder\phonebook2\phonebook2\pb.c(42,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\Ahn\Ahncoder\phonebook2\phonebook2\pb.c(43,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\Ahn\Ahncoder\phonebook2\phonebook2\pb.c(44,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\Ahn\Ahncoder\phonebook2\phonebook2\pb.c(76,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\Ahn\Ahncoder\phonebook2\phonebook2\pb.c(77,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\Ahn\Ahncoder\phonebook2\phonebook2\pb.c(78,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\Ahn\Ahncoder\phonebook2\phonebook2\pb.c(94,9): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  phonebook2.vcxproj -> C:\Users\Ahn\Ahncoder\phonebook2\Debug\phonebook2.exe
+﻿  PhoneBook_ver4(최종버전,삭제버그 수정).c
+C:\Users\Ahn\Projects\PhoneBook_ver4(최종버전,삭제버그 수정).c(24,5): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Ahn\Projects\PhoneBook_ver4(최종버전,삭제버그 수정).c(26,5): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Ahn\Projects\PhoneBook_ver4(최종버전,삭제버그 수정).c(28,5): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Ahn\Projects\PhoneBook_ver4(최종버전,삭제버그 수정).c(82,5): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Ahn\Projects\PhoneBook_ver4(최종버전,삭제버그 수정).c(117,5): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Ahn\Projects\PhoneBook_ver4(최종버전,삭제버그 수정).c(182,17): warning C4098: 'save': 'void' 함수에서 값을 반환하고 있습니다.
+C:\Users\Ahn\Projects\PhoneBook_ver4(최종버전,삭제버그 수정).c(178,10): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Ahn\Projects\PhoneBook_ver4(최종버전,삭제버그 수정).c(198,10): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Ahn\Projects\PhoneBook_ver4(최종버전,삭제버그 수정).c(205,9): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Ahn\Projects\PhoneBook_ver4(최종버전,삭제버그 수정).c(249,9): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  phonebook2.vcxproj -> C:\Users\Ahn\Projects\phonebook2\Debug\phonebook2.exe
